@@ -11,10 +11,6 @@ const Form = () => {
   function simpanData (event) {
     event.preventDefault()
 
-
-
-
-
   }
   return (
     <div class = 'form'>
@@ -24,6 +20,8 @@ const Form = () => {
           <h1>nim: {nim}</h1>
           <h1>angkatan: {angkatan}</h1>
           <h1>hobi: {hobi}</h1>
+          <button onClick={() => {
+                  setSend(false)}}>RETURN</button>
         </div>
       ):
       (
@@ -49,6 +47,7 @@ const Form = () => {
                 }}/> 
                 <button onClick={() => {
                   setSend(true)}}>SEND</button>
+                  
             </form>
         </div>
         </div>
