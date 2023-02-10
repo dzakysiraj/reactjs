@@ -1,0 +1,67 @@
+.form{
+    width: 700px;
+    height: 900px ;
+    background-image: linear-gradient(to bottom right, #CD0404, #FF8B13);
+    border-radius: 30px;
+    margin :20px auto;
+    overflow: auto;
+}
+
+.container h1 {
+    background-color: #FFC93C;
+    text-align: center;
+    font-size: 70px;
+    border-radius: 30px;
+    width: 340px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    font-size: 40px; 
+    padding-top: 20px;
+    background-color: #FFC93C;
+    width: 250px;
+    height: 40px;
+    margin: 30px auto;
+    line-height: 20px;
+    border-radius: 30px;
+
+}
+
+.zoro {
+    text-align: center;
+}
+
+input{
+    width: 80%;
+    height: 30px;
+    border-radius: 30px;
+    display: block;
+    margin: 0 auto;
+}
+
+.container{
+    padding-top: 40px;
+}
+
+button{
+    background-color: black;
+    color: cornsilk;
+    padding: 20px 25px;
+    margin-top: 30px;
+    border-radius: 20px;
+    font-size: 20px;
+    
+}
+
+.jek{
+    width: 300px;
+    height: 300px;
+    background-color: #FFC93C;
+    margin: 220px auto;
+    padding: 50px;
+    border-radius: 30px;
+
+
+}
